@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>memorias</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
     * {
       margin: 0;
       padding: 0;
@@ -16,6 +18,7 @@
       width: 100vw;
       position: relative;
       overflow: hidden;
+      font-family: 'Montserrat', sans-serif;
     }
 
     body::before {
@@ -42,8 +45,21 @@
       width: 100%;
       z-index: -1;
     }
+
+    .texto {
+      color: white;
+      position: absolute;
+      left: 10vw;
+      top: 20vh;
+      font-size: 3vw;
+    }
   </style>
 </head>
 <body>
+
+  <div class="texto">
+    Tu texto aquí
+  </div>
+
 </body>
 </html>
