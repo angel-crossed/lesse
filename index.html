@@ -82,12 +82,23 @@
       letter-spacing: 0.2vw;
     }
 
-    
+    .skin a {
+      color: white;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .skin a:hover {
+      color: #ffb700;
+    }
+
     @media (max-width: 600px) {
-  body::before {
-    background-size: 220%;
-    background-position: center;
-  }
+      body::before {
+        background-size: 220%;
+        background-position: center;
+      }
+
       .uno {
         left: 27vw;
         top: 40vh;
@@ -128,7 +139,9 @@
   <div class="texto dos">pero me embriago más</div>
   <div class="texto tres">te busco como una droga</div>
   <div class="texto cuatro">como una obsesión agridulce</div>
-  <div class="texto skin">see-the-skin</div>
+  <div class="texto skin">
+    <a href="https://www.tumblr.com/eternaenmente" target="_blank">see-the-skin</a>
+  </div>
 
 </body>
 </html>
